@@ -9,6 +9,8 @@
 <form action="#" th:action="@{greeting}" th:object="${greeting}" method="post">
     <p>Id: <input type="text" name="name" placeholder="Имя" required th:field="*{id}" /></p>
     <p>Message: <input type="text" th:field="*{content}" /></p>
+
+
     <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
 </form>
 </body>
